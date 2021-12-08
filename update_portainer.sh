@@ -1,3 +1,4 @@
+#!/bin/bash
 portainer_pid=`docker ps | grep portainer-ce | awk '{print $1}'`
 portainer_name=`docker ps | grep portainer-ce | awk '{print $2}'`
 
